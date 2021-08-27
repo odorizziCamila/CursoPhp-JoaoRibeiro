@@ -7,6 +7,7 @@
 
     </head>
     <body>
+        <!---Sempre no interir do html--->
         <?php echo'teste1'?>
         <br>
         <?php echo"teste2"?>
