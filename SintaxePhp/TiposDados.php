@@ -14,5 +14,5 @@ $float =10.20; //float com casas decimais
 $bool=true; //verdadeiro ou falso
 $string="olá mundo";//string cadeia de caracteres
 $array =[1,2,3];//array-coleção de valores
-$pessoa= new Pessoa();//objeto com propriedade e métodos
+$pessoa= new $Pessoa();//objeto com propriedade e métodos
 $nulo= null;//variavel com valor nulo.
