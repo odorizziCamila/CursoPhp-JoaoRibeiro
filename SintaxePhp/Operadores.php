@@ -21,6 +21,7 @@ echo 3462%7;
 
 $a=10;
 $b=20;
+$d=$v=$h=100;
 $resultado=$a+$b;
 echo '<br>';
 echo $resultado;
