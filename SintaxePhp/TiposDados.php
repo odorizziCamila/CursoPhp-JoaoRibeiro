@@ -10,7 +10,7 @@ $vaiavel ="cem";
 //apesar de serem variáveis de tipod implicitos, é importante saber que:
 
 $inteiro = 100; //int
-$float =10,20; //float com casas decimais
+$float =10.20; //float com casas decimais
 $bool=true; //verdadeiro ou falso
 $string="olá mundo";//string cadeia de caracteres
 $array =[1,2,3];//array-coleção de valores
