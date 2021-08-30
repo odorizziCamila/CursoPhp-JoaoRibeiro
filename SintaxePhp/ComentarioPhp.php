@@ -9,4 +9,4 @@ Comentário de multiplas linhas
 
 echo'exemplo de comentário';
 echo'<br>';
-# echo'ignorar esta instrução com um comentário;';
+# echo'ignorar esta instrução com um comentário;';<
