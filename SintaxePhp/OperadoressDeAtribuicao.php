@@ -20,3 +20,10 @@ echo $a;
 $a-=3;//7
 $a*=2;//20
 $a/=2;//5
+
+
+//operadores de incremento e decremento
+//Adicionam ou subtraem uma unidade a variável
+
+$a++; //$a=$a+1;
+$a--; //$a=$a-1;
