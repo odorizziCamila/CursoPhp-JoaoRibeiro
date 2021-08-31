@@ -27,3 +27,19 @@ $a/=2;//5
 
 $a++; //$a=$a+1;
 $a--; //$a=$a-1;
+
+
+echo'<br>';
+$b=100;
+echo $b--;
+echo'<br>';
+echo $b--;
+
+//diferente de
+
+echo'<br>';
+$c=100;
+echo --$c;
+echo'<br>';
+echo --$c;
+
