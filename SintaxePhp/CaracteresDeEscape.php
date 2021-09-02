@@ -15,6 +15,9 @@ $frase4='I\'m going to John\'s Party';
 echo $frase4;
 
 // apenas tem o comportamento desejado no terminal
-
-echo 'Joao Ribeiro\n\rTeste';
+// para obter o comportamento adquado devemos utilizar as aspas duplas.
+echo'<br>';
+//echo 'Joao Ribeiro\n\rTeste';// apresentação literal
 echo"Joao Ribeiro\n\rTeste";
+echo'<br>';
+
