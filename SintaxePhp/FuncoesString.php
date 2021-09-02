@@ -64,3 +64,14 @@ echo $n;
 echo $posicao;
 //Nesta pagina voce poderá encontrar todas as funções para trabalhar com string
 //php.net/manual/pt_BR/ref.strings.php
+
+//No php 8 foram introduzidas mais algumas funções para usar com strings
+//str_contains()
+$nome="Ana Maria Silva Cardoso";
+$x=str_contains($nome,'Silva');#true
+//str_starts_with()
+$x=str_starts_with($nome,'Ana');//true
+$x=str_starts_with($nome,'ana');//false case sensitive
+//str_ends_with()
+$x=str_ends_with($nome,'oso');//true
+$x=str_ends_with($nome,' oso');//false
