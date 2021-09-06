@@ -22,7 +22,7 @@ $nomeCompleto="$nome $apelido";
         <!---Sempre no interir do html--->
         <p><?php echo $nome.' '.$apelido
         ?></p>
-        <p><?php  echo 'O nome tem '.$totalcaract = strlen($nomeCompleto)?></p>
+        <p><?php  echo 'O nome tem '.mb_strlen($nomeCompleto)?></p>
         <br>
        
     
