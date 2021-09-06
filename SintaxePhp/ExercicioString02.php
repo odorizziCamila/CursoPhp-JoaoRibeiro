@@ -5,3 +5,27 @@
 // o nome tem x caracteres.
 //sendo x o calculo total de caracteres do seu nome.
 
+$nome='camila';
+$apelido='mila';
+$nomeCompleto="$nome $apelido";
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" >
+        <title>Curso PHP</title>
+
+    </head>
+    <body>
+        <!---Sempre no interir do html--->
+        <p><?php echo $nome.' '.$apelido
+        ?></p>
+        <p><?php  echo 'O nome tem '.$totalcaract = strlen($nomeCompleto)?></p>
+        <br>
+       
+    
+    </body>
+
+</html>
