@@ -108,4 +108,5 @@ echo $dados[0][3];//40
 $cidades=[
     'Brasil'=>['Sao Paulo','Rio de Janeiro']
 ];
-echo $cidade['Brasil'][1];// São Paulo
+echo'<br>';
+echo $cidades['Brasil'][1];// Rio de Janeiro
