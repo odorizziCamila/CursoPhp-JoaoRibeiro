@@ -72,4 +72,19 @@ $dados= [
 ];
 
 
-]
+//array mistos
+//É possivel criar um array q combina indices númericos e strings.
+// Embora não seja de necessidade muito frequente, é possivel da seguinte forma:
+
+$dados=[
+    0=>10,
+    'nome'=>'Camila',
+    10=>100
+];
+
+//uma estrutura deste tipo é mais complexa de gerir.
+//devido a mistua de indices e tipos de dados.
+//Para apresentar dados do array, procesemos sempre da mesma forma;
+
+echo $dados[0];
+echo $dados['apelido'];
