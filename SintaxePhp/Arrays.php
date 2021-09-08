@@ -87,4 +87,25 @@ $dados=[
 //Para apresentar dados do array, procesemos sempre da mesma forma;
 
 echo $dados[0];
-echo $dados['apelido'];
+echo $dados['nome'];
+
+
+//Arrays multidimensionais
+
+//São arrays númericos ou associativos, cujs valores são outros arrays.
+
+$dados = [[10,20,30,40,50,60],
+[100,200,300,400],
+[1000,2000,3000]];
+
+//neste caso, para apresentarmos valores deste array:
+echo $dados[1][2];//300
+echo $dados[0][3];//40
+
+//podemos ter arrays multidimensionais associativos
+
+//exemplo
+$cidades=[
+    'Brasil'=>['Sao Paulo','Rio de Janeiro']
+];
+echo $cidade['Brasil'][1];// São Paulo
