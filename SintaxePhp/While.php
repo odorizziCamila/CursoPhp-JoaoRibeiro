@@ -15,3 +15,11 @@ while($x<10){
 }
 echo '<hr>';
 
+// outro exemplo
+$i =0;
+while($i<10){
+    echo $i++.'<br>';
+}
+
+// Importante
+// Nunca esquecer a alteração da condição, caso contrário teremos um ciclo infinito.
