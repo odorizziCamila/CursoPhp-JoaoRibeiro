@@ -10,7 +10,7 @@
 $opcao =0;
 $nome= $opcao==1?'Joao':'Antonio';
 //podemos também usar da seguinte forma:
-$opcao==1? $nome ='Joao':$nome='Antonio';
+echo $opcao==1? $nome ='Joao':$nome='Antonio';
 //podemos usar o operador ternario em várias situações distintas.
 //por exemplo, para apresentar um determinado texto.
 
@@ -20,3 +20,11 @@ echo $opcao ==1? 'Sim':'Não';
 //por exemplo, para apresentar um determinao texto.
 echo $opcao == 1? 'Sim':'Não';
 ?>
+<!-- Com instrução condicional IF -->
+<?php if($opcao==1):?>
+    <h2>Sim</h2>
+<?php else:?>
+    <h2>Não</h2>
+<?php endif;?>
+<!--Com operador ternario-->
+<h2><?= $opcao ==1?'Sim':'Não'?></h2>
