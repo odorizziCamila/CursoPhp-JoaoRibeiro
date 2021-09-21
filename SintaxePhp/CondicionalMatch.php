@@ -16,10 +16,7 @@ switch($x){
         break;
     default;
     echo ' é um numero diferente de 5,10..';
-    break;
-
-
-    
+    break;  
 }
 // Com Match
 
