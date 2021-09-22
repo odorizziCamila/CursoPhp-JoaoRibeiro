@@ -27,6 +27,6 @@ for($contador = 1, $x=10; $contador <10;$contador++, $x--){
 echo '<hr>';
 //Podemos apresentar todos os dados de um array
 $nomes =['camila','joao'];
-for($i =0;$i<sizeof($nome);$i++){
+for($i =0;$i<sizeof($nome);$i++){// sizeof é uma função que permite contar quantos valor possui o meu array
     echo $nomes[$i].'<br>';
 }
