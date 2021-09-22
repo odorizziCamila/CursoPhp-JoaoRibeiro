@@ -23,3 +23,23 @@ while($i<10){
 
 // Importante
 // Nunca esquecer a alteração da condição, caso contrário teremos um ciclo infinito.
+
+
+// DO WHILE
+//É muito semelhante ao ciclo While, contudo, neste caso a condição é avaliada após a execução do ciclo.
+echo'<hr>';
+
+$x =0;
+do{
+    echo $x++.'<br>';
+}while($x<10);
+echo'<hr>';
+
+//de igual modo, quando só temos uma expressão a executar, podemos ignorar as chaves.
+
+$x =0;
+do
+    echo $x++.'<br>';
+    while($x<10);
+    echo'<hr>';
+
