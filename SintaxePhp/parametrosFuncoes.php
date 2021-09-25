@@ -19,6 +19,7 @@ function adicionar($a, $b){
     echo"$a + $b = ".$a+$b;
     echo'<br>';
     echo"$a + $b = ".($a+$b);
+    echo'<br>';
 }
 // No php 8 já não são necessáios os parênteses nas operações
 
@@ -31,3 +32,16 @@ function saudacao($valor){
 }
 // conclusão
 // parâmetro é o nome das variáveis existentes na definição da função, argumentos são os dados passados quando o função é chamada.
+
+
+//parametros opcionais 
+//Podemos criar funções que tem parametros com um valor pré definido. A chamada dessas funções não obriga a definir argumentos para esses parametros.
+
+function multiplicar($a, $b =9){
+    //$a será o valor passado por agumento
+    //$b será:
+    //o valor do argumento se ele for passado na chamada.
+    // o valor 9 se não for passado o argumento.
+
+    echo 'o valor é: '.$a * $b;
+}
