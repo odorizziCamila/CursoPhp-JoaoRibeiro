@@ -45,3 +45,5 @@ function multiplicar($a, $b =9){
 
     echo 'o valor é: '.$a * $b;
 }
+multiplicar(2);
+
