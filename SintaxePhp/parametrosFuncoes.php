@@ -47,3 +47,13 @@ function multiplicar($a, $b =9){
 }
 multiplicar(2);
 
+
+// os parametros opcionais tem que ser definido apos os parametros não opcionais.
+
+function dividir($a=2,$b){
+
+    echo"$a e $b";
+}
+
+
+// no php 7 era possivel, já no php 8 apresentará um aviso.
