@@ -22,7 +22,7 @@ class Humano{
 //Um objeto é uma variável criada a partir de uma classe.
 //Instaciar um objeto criar um objeto a partir de uma classe atribuindo á variável a expressão new e o nome da classe.
 
-$homem = new Humano();
+$homem = new Humano();// instanciando uma classe
 // Com a implementação anterior podemos agora aceder as propriedades e métodos.
 echo $homem -> nomecompleto();// Camila Ribeiro
-// 
+//  Tal 
