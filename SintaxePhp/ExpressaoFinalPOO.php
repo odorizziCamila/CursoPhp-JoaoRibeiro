@@ -26,8 +26,5 @@ final class Humano{
     }
 }
 
-class Homem extends Humano{
 
-}
-$tst = new Homem();
-$tst->teste();
+
