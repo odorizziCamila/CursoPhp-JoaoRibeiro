@@ -2,6 +2,8 @@
 //VAR Keyword
 // tem o mesmo comportamento de public, mas apenas existe por retrocompatibilidade devido ao codigo escrito antes do PHP 5. Não é recomendável usar porque poderá em breve passar a ser não suportado.
 
+
+
 class Homem{
     var $nome, $apelido;
 
@@ -18,6 +20,7 @@ $eu->apelido='Ribeiro';
 class Humano{
 
     private $nome='a';
+    
     function setPrivate($objeto, $valor){
         $objeto->nome=$valor;
     }
@@ -27,3 +30,9 @@ class Humano{
 }
 
 $a = new Humano();
+$b = new Humano();
+$a-> setPrivate($b,'Joao');
+
+$a->apresentar();
+echo'<br>';
+$b->apresentar();
