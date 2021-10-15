@@ -21,7 +21,7 @@ class Teste{
 
 // Exemplo pratico 
 
-class operacoes{
+class Operacoes{
     static $valor01;
     static $valor02;
 
@@ -29,7 +29,12 @@ class operacoes{
         return self::$valor01+self::$valor02;
 
     }
+    static function hashAleatorio(){
+        return rand(0,1000);
+    }
 }
 Operacoes::$valor01=10;
 Operacoes::$valor02=20;
 echo Operacoes::adicinar();
+echo '<br>';
+echo $hash = Operacoes::hashAleatorio();
